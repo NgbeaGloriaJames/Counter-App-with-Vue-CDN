@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a custom counter app where you can increment and decrement the count by clicking buttons or input a specific digit by clicking on the display.">
+    <link rel="stylesheet" href="style.css">
+    <title>Custom Couter Hook App | Gloria Ngbea</title>
+    <script src="https://kit.fontawesome.com/96bf4d1529.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="app">
+    <div class="container">
+        <!-- display section -->
+        <p class="display" @click="inputDigit">{{count}}</p>
+
+
+        <!-- button for add,reset and reduce -->
+        <div class="calbtn">
+            <button v-on:click="count--" class="minus">-</button>
+            <button v-on:click="count++" class="add">+</button>
+            <button @click="resetButtons" class="rst" ><i class="fa-solid fa-arrows-rotate"></i> </button>  
+        </div>
+        
+    </div>
+    
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
