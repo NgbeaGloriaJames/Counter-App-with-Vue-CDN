@@ -89,17 +89,16 @@ border:green solid 5px;
   font-size: 20px;
   color: whitesmoke;
 }
-.rst:hover{
-color: white;
-background-color: red;
-border:red solid 5px;
+  .rst:hover{
+  color: white;
+  background-color: red;
+  border:red solid 5px;
 }
 
 /* mobile */
 @media (min-width:350px) and (max-width: 750px){
 .container{
   width: 80%;
-  height: 300px
 }
 
 .minus{
@@ -155,7 +154,7 @@ width:50%;
 }
 }
 
-@media only screen and (min-width:993px) {
+@media (min-width:993px) {
 .container{
   width:85%;
 }
