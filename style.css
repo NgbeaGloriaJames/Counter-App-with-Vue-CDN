@@ -6,6 +6,7 @@
 
 body{
   background-color: blueviolet;
+  touch-action: manipulation;
 }
 
 h1{
