@@ -12,10 +12,14 @@ const app = Vue.createApp({
         inputDigit(){
             // Displays a dialog box with the message "Enter a digit:
             const digit = prompt("Enter a digit:"); 
+
+            if (digit == ''){
+                this.count
+            }
             //checks if the value stored in the variable digit is a valid number. 
             //If digit is a valid number, isNaN() will return false, and !false will evaluate to true, 
             //meaning the condition is satisfied.
-                if (!isNaN(digit)) {
+               else if (!isNaN(digit)) {
                     this.count = parseInt(digit);
             }
         }
