@@ -15,7 +15,7 @@
   }
 
   .container{
-    height: 70vh;
+    height: 300px;
     margin: 20px auto;
     background-color: grey;
     text-align: center;
@@ -100,6 +100,7 @@
 @media (min-width:350px) and (max-width: 750px){
   .container{
     width: 80%;
+    height: 300px
   }
 
 .minus{
