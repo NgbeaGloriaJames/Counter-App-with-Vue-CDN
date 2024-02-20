@@ -8,6 +8,9 @@
 body{
   background-color: blueviolet;
   touch-action: manipulation;
+  background-image: url('/img/nasa-hubble-space-telescope-NOBlqe6byHc-unsplash.jpg'); /* URL of your image */
+  background-size: cover;
+  background-position: center;
 }
 
 h1{
@@ -18,26 +21,30 @@ h1{
 
 .container{
   margin: 20px auto;
-  background-color: grey;
+  background-color: whitesmoke;
   text-align: center;
   padding: 5%;
-  border: 5px solid skyblue;
+  border: 5px solid burlywood;
   border-radius: 10px;
   touch-action: manipulation;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .display{
   height: 70px;
   font-size:40px;
-  color:skyblue;
+  color:burlywood;
   margin: -5px auto;
   width: 98%;
   background-color: whitesmoke;
-  border: skyblue 5px solid;
+  border: burlywood 5px solid;
   display: flex;
   align-items: center;
   padding: 8px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .calbtn{
@@ -47,8 +54,8 @@ h1{
 }
 
 .minus{
-background-color: silver;
-border:skyblue solid 5px;
+background-color: navajowhite;
+border:burlywood solid 5px;
 cursor: pointer;
 font-size: 50px;
 height: 50px;
@@ -57,7 +64,7 @@ text-align: center;
 display: flex;
 justify-content: center; 
 align-items: center;
-color: whitesmoke;
+color: black;
 }
 .minus:hover{
 color: white;
@@ -69,12 +76,12 @@ border:blue solid 5px;
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background-color: silver;
-  border:skyblue solid 5px;
+  background-color: navajowhite;
+  border:burlywood solid 5px;
   cursor: pointer;
   font-size: 50px;
   margin-inline-start: 30%;
-  color: whitesmoke;
+  color: black;
   
 }
 .add:hover{
@@ -87,10 +94,10 @@ border:green solid 5px;
   cursor: pointer;
   height: 50px;
   width: 100px;
-  background-color: silver;
-  border:skyblue solid 5px;
+  background-color: navajowhite;
+  border:burlywood solid 5px;
   font-size: 20px;
-  color: whitesmoke;
+  color: black;
 }
   .rst:hover{
   color: white;
@@ -102,6 +109,13 @@ border:green solid 5px;
 @media (min-width:350px) and (max-width: 750px){
 .container{
   width: 80%;
+  height:80vh;
+  background-color: whitesmoke;
+}
+
+.calbtn{
+  margin-block-start: 100px;
+  
 }
 
 .minus{
@@ -170,8 +184,6 @@ width:50%;
     margin-inline-start: 50%;
 }
 .minus{
-  background-color: silver;
-  border:skyblue solid 5px;
   cursor: pointer;
   font-size: 50px;
   height: 100px;

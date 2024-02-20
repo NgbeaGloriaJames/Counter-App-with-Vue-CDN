@@ -2,7 +2,6 @@
 ## Table of contents
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -20,12 +19,11 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c523fabd-396f-414f-9915-ffe504685a6f/deploy-status)](https://app.netlify.com/sites/vue-counter-app-gloria-ngbea/deploys)
 
 
-
 ### Built with
 
 - HTML5 
 - CSS 
-- Vue.js CDN
+- Vue.js using CDN
 
 
 ### What I learned
